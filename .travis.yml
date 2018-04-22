@@ -2,4 +2,5 @@ language: node_js
 node_js:
     - "8"
     - "9"
+install: yarn install --ignore-engines
 script: npm run test-js
